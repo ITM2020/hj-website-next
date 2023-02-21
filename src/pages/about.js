@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "../styles/about.module.css";
-
+import Link from "next/link";
 
 
 export default function About() {
@@ -53,7 +53,7 @@ export default function About() {
               width="136"
               height="77" />
           </div>
-          <a href="/about" className={`${styles.buttonSolid} button-solid`}>More About Us</a>
+          <Link href="/about" className={`${styles.buttonSolid} button-solid`}>More About Us</Link>
         </div>
       </div>
     </section>
@@ -68,7 +68,7 @@ export default function About() {
           Say something catchy, informative, and encouraging to click the button to go to the contact page. I like to add
           these to the bottom of all pages.
         </p>
-        <a href="/contact" className={`${styles.buttonSolid} button-solid`}>Get an Estimate Now</a>
+        <Link href="/contact" className={`${styles.buttonSolid} button-solid`}>Get an Estimate Now</Link>
       </div>
 
       <picture>
