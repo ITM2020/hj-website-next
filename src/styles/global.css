@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
 /*-- -------------------------- -->
 <---        Core Styles         -->
 <--- -------------------------- -*/
@@ -17,39 +19,12 @@
     /* 60px - 100px top and bottom */
     --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 1rem;
   }
-  /* roboto-regular - latin */
-  @font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    src: local(''), url('../assets/fonts/roboto-v29-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('../assets/fonts/roboto-v29-latin-regular.woff') format('woff');
-    
-    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  /* roboto-700 - latin */
-  @font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    src: local(''), url('../assets/fonts/roboto-v29-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('../assets/fonts/roboto-v29-latin-700.woff') format('woff');
-    
-    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  /* roboto-900 - latin */
-  @font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    src: local(''), url('../assets/fonts/roboto-v29-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('../assets/fonts/roboto-v29-latin-900.woff') format('woff');
-    
-    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
   body,
   html {
     margin: 0;
     padding: 0;
     font-size: 100%;
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
     color: var(--bodyTextColor);
     overflow-x: hidden;
   }
@@ -74,6 +49,7 @@
   h4,
   h5,
   h6 {
+    font-family: 'Playfair Display', serif;
     margin: 0;
     color: var(--headerColor);
   }
